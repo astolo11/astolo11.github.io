@@ -22,7 +22,7 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Kit by Creative Tim
+    Main Index
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -33,13 +33,12 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
-
-<body class="index-page sidebar-collapse">
-  <nav class="navbar  fixed-top navbar-expand-lg bg-danger" id="sectionsNav">
+<body>
+ <nav class="navbar fixed-top navbar-expand-lg bg-white">
     <div class="container-fluid">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
-          Material Kit </a>
+        <a class="navbar-brand" href="index.php">
+          Material News </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
@@ -49,36 +48,13 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Components
-            </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="./index.html" class="dropdown-item">
-                <i class="material-icons">layers</i> All Components
-              </a>
-              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
-                <i class="material-icons">content_paste</i> Documentation
-              </a>
-            </div>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/ferry.d.perdana" target="_blank" data-original-title="Like us on Facebook">
               <i class="fa fa-facebook-square"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/anadrep_/?hl=id" target="_blank" data-original-title="Follow us on Instagram">
               <i class="fa fa-instagram"></i>
             </a>
           </li>
@@ -86,44 +62,57 @@
       </div>
     </div>
   </nav>
-<br>
+<br> 
 <div class="container-fluid">
   <div class="section section-basic card-group">
   <div class="row">
-    <div class="col-md-7 ml-auto mr-auto">
+    <div class="col-md-8 ml-auto mr-auto">
       <div class="card card-nav-tabs">
-  <h4 class="card-header card-header-info">Highlight</h4>
-  <div class="card-body">
-      <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Card image cap">
-
-    <h4 class="card-title">Special title treatment</h4>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#0" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+        <h4 class="card-header card-header-success">Highlight</h4>
+        <div class="card-body">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Card image cap">
+          <h4 class="card-title">Special title treatment</h4>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="konten.php" class="btn btn-danger">Baca</a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-5 ml-auto mr-auto">
-      <div class="card text-center">
-  <div class="card-header card-header-rose">
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="#0">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#0">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#0">Disabled</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    <h4 class="card-title">Special title treatment</h4>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#0" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-  </div>
+    <div class="col-md-4 ">
+     <div class="d-flex flex-column bd-highlight mb-6">
+      <div class="p-2 bd-highlight">
+                 <div class="card card-nav-tabs">
+          <h4 class="card-header card-header-success">Highlight</h4>
+            <div class="card-body">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Card image cap">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="konten.php" class="btn btn-danger">Baca</a>
+          </div>
+        </div>
+        
+      <div class="p-2 bd-highlight">
+        <div class="col-md-12 ">
+           <div class="card card-nav-tabs">
+          <h4 class="card-header card-header-info">Featured</h4>
+          <div class="card-body">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#0" class="btn btn-danger">Baca</a>
+          </div>
+        </div>
+
+      </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+
   </div>
   </div>
 <br>
@@ -143,7 +132,7 @@
 
     <h4 class="card-title">Special title treatment</h4>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#0" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-danger">Baca</a>
   </div>
 </div>
     </div>
@@ -261,30 +250,42 @@
   </div>
 </div>
 </div>
+<!-- page -->
+<nav aria-label="...">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+<br>
 </div>
+
+
   <!--  End Modal -->
   <footer class="footer" data-background-color="black">
     <div class="container">
       <nav class="float-left">
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="#">
+              Material Tim
             </a>
           </li>
           <li>
-            <a href="https://creative-tim.com/presentation">
+            <a href="#">
               About Us
-            </a>
-          </li>
-          <li>
-            <a href="http://blog.creative-tim.com">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://www.creative-tim.com/license">
-              Licenses
             </a>
           </li>
         </ul>
@@ -294,7 +295,7 @@
         <script>
           document.write(new Date().getFullYear())
         </script>, made with  <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+        <a href="#" target="_blank">Material Tim</a> for a better web.
       </div>
     </div>
   </footer>
@@ -311,25 +312,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
-  <script>
-    $(document).ready(function() {
-      //init DateTimePickers
-      materialKit.initFormExtendedDatetimepickers();
-
-      // Sliders Init
-      materialKit.initSliders();
-    });
-
-
-    function scrollToDownload() {
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
-
-  </script>
 </body>
 
 </html>
